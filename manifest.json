@@ -1,9 +1,15 @@
 {
   "name": "Persistent Tracker Extension",
+  "id": "hayase-tracker-extension",
   "description": "Allows adding custom torrent trackers with a UI and persistence",
-  "version": "1.0.0",
-  "author": "Torkley",
-  "main": "persistent-tracker-extension.js",
-  "icon": "icon.png",
-  "type": "extension"
+  "trackers": [
+    "udp://tracker.opentrackr.org:1337/announce",
+    "udp://tracker.coppersurfer.tk:6969/announce",
+    "udp://tracker.internetwarriors.net:1337/announce",
+    "udp://open.stealth.si:80/announce",
+    "udp://tracker.leechers-paradise.org:6969/announce"
+  ]
+  "languages": ["ru", "ja", "en"],
+  "categories": ["Anime", "HD"],
+  "tags": ["Custom", "Persistent", "Rutracker"]
 }
