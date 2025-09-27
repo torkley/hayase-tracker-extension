@@ -8,7 +8,7 @@
     "udp://tracker.internetwarriors.net:1337/announce",
     "udp://open.stealth.si:80/announce",
     "udp://tracker.leechers-paradise.org:6969/announce"
-  ]
+  ],
   "languages": ["ru", "ja", "en"],
   "categories": ["Anime", "HD"],
   "tags": ["Custom", "Persistent", "Rutracker"]
