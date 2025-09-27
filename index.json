@@ -4,11 +4,10 @@
   "description": "Allows adding custom torrent trackers with a UI and persistence",
   "type": "torrent",
   "accuracy": "high",
-  "icon": "https://yourhost.com/icon.png",
   "media": "both",
   "languages": ["RU", "JA", "EN"],
-  "update": "https://yourhost.com/index.json",
-  "code": "https://yourhost.com/persistent-tracker-extension-safe.js",
+  "update": "https://torkley.github.io/hayase-tracker-extension/index.json",
+  "code": "https://torkley.github.io/hayase-tracker-extension/persistent-tracker-extension.js",
   "trackers": [
     "udp://tracker.opentrackr.org:1337/announce",
     "udp://tracker.coppersurfer.tk:6969/announce",
