@@ -1,8 +1,7 @@
 {
-  "manifest_version": 3,
   "name": "Persistent Tracker Extension",
   "version": "1.0.0",
   "description": "Adds custom trackers including RuTracker to Hayase",
-  "main": "persistent-tracker-extension-safe.js",
-  "type": "extension"
+  "main": "index.json",
+  "types": "index.d.ts"
 }
